@@ -1,0 +1,45 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); */
+
+*,::after,::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#root{
+    margin: 0;
+    padding: 0;
+}
+.site-calendar-demo-card {
+    width: 300px;
+    border: 1px solid #f0f0f0;
+    border-radius: 2px;
+}
+.site-card-border-less-wrapper {
+    padding: 30px;
+    background: #ececec;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.site-card{
+    padding: 30px;
+    background: #ececec;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.site_1{
+    height: 100vh;
+}
+.dropzone{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: #eee;
+}
